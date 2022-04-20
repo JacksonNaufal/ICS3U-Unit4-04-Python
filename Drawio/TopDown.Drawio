@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Ek28gAYluiZjqxpAqC49" name="Page-1">
-        <mxGraphModel dx="1526" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1581" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -33,7 +33,7 @@
                 <mxCell id="6" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-280" y="-370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;rounded=0;" edge="1" parent="1" target="19">
+                <mxCell id="34" style="edgeStyle=none;html=1;rounded=0;" parent="1" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="-270" as="sourcePoint"/>
                         <Array as="points">
@@ -41,10 +41,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="20">
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="30">
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="-270" as="sourcePoint"/>
                         <Array as="points">
@@ -52,7 +52,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" target="24">
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="-270" as="sourcePoint"/>
                         <Array as="points">
@@ -88,25 +88,25 @@
                 <mxCell id="11" value="Enter your number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-280" y="-250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Show total sum of all numbers in loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="14" value="guess is correct" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="790" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="number = integer * integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="19" value="Integer_input &amp;gt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="for number = 0;&lt;br&gt;integer &amp;lt; number + 1;&lt;br&gt;integer++" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="20" value="Integer_input &amp;lt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="if&amp;nbsp; integer &amp;lt;&amp;nbsp; 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="24" value="generate random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-60" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&quot;Not Defined&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="25" value="Number is too big" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="if&amp;nbsp; integer&amp;nbsp; == 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="30" value="Integer_input &amp;gt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="-210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&quot;1&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="31" value="Number is too small" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="-270" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
