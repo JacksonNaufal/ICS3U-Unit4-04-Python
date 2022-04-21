@@ -2,30 +2,41 @@
 
 # Created by: Jackson Naufal
 # Created on: March 2022
-# This is a loop number adder
+# This is a guess the random number program
+
+import random
 
 
 def main():
-    # This is aloop number adder with try and catch
-    total = 0
-    loop_number = 0
+    # This is a random number guesser, with try and catch
 
     # input
-    number_string = input("Enter your number: ")
+    random_number = random.randint(0, 9)  # a number between 0 and 9
+    counter = 0
 
     # process & output
-    try:
-        number = int(number_string)
+    while True:
+        guess_number_string = input("\nEnter your first guess here (0-9): ")
+        try:
+            guess_number = int(guess_number_string)
+            counter += 1
+            if guess_number < 0 or guess_number > 9:
+                print("\nInvalid Number!")
+            else:
+                if guess_number > random_number:
+                    print("\nGuess number is too high!")
+                elif guess_number < random_number:
+                    print("\nGuess number is to low")
+                else:
+                    print("You guessed correctly!")
+                    print("\nThe correct number is {0}.".format(random_number))
+                    print("It took you {0} guesses!".format(counter))
+                    # how many times through
+                    print("\nDone.")
+                    break
 
-        while loop_number < number:
-            loop_number = loop_number + 1
-            total = total + loop_number
-        else:
-            print("The sum off all numbers from 1 to {0} is {1}.".format(number, total))
-
-    except Exception:
-        print("\nThat was not an integer")
-    print("\nDone.")
+        except Exception:
+            print("\nThat was not an integer")
 
 
 if __name__ == "__main__":
